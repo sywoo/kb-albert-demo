@@ -9,7 +9,7 @@ import torch.nn.functional as F
 st.title("자비스")
 
 # 모델과 토크나이저 로드 (사전에 학습된 모델 경로로 변경)
-model_path = './fine_tuned_albert'
+model_path = 'kbalbertmodel.zip'
 
 # 토크나이저 및 모델 로드
 tokenizer = AutoTokenizer.from_pretrained(model_path)
